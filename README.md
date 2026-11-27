@@ -1,31 +1,31 @@
 # Physics Staff — Minecraft 26.3
 
-Неофициальный порт творческого физического посоха из [Simulated-Project](https://github.com/Creators-of-Aeronautics/Simulated-Project) для Minecraft 26.3 и NeoForge. Посох позволяет перемещать, вращать и фиксировать конструкции Sable. Дальность по умолчанию — 128 блоков; фиксация сохраняется вместе с миром.
+An unofficial port of the Creative Physics Staff from [Simulated-Project](https://github.com/Creators-of-Aeronautics/Simulated-Project) for Minecraft 26.3 on NeoForge. The staff lets you move, rotate, and lock Sable structures in place. Its default range is 128 blocks, and locks are saved with the world.
 
-## Установка
+## Installation
 
-Нужны Minecraft **26.3**, NeoForge **26.3.0.118** и порт Sable **2.0.7+26.3-port**. Поместите собранный JAR Physics Staff и JAR Sable в папку `mods/`. Для сетевой игры установите оба мода на клиенте и на сервере.
+Requires Minecraft **26.3**, NeoForge **26.3.0.118**, and the Sable port **2.0.7+26.3-port**. Place the Physics Staff and Sable JARs in the `mods/` folder. For multiplayer, install both mods on the client and the server.
 
-## Управление
+## Controls
 
-Посох находится на вкладке инструментов в творческом инвентаре.
+The staff is in the Tools & Utilities tab of the Creative inventory.
 
-| Ввод по умолчанию | Действие |
+| Default input | Action |
 | --- | --- |
-| ПКМ | Захватить или отпустить конструкцию |
-| ЛКМ | Зафиксировать конструкцию или снять фиксацию |
-| Удерживать `Tab` и двигать мышью | Вращать захваченную конструкцию |
-| Колесо мыши | Изменить дистанцию до захваченной конструкции; клавиша спринта увеличивает шаг |
+| Right-click | Grab or release a structure |
+| Left-click | Lock or unlock a structure |
+| Hold `Tab` and move the mouse | Rotate the structure you're holding |
+| Mouse wheel | Adjust the distance to the structure you're holding; hold the sprint key for larger steps |
 
-## Сборка из исходников
+## Building from source
 
-Установите **JDK 25**. Нужен готовый JAR порта Sable для 26.3: он не входит в этот репозиторий. Положите его по пути `../sable-26.3/build/libs/sable-2.0.7+26.3-port.jar` относительно корня Physics Staff.
+Install **JDK 25**. You'll also need a prebuilt JAR of the Sable port for 26.3, which is not included in this repository. Place it at `../sable-26.3/build/libs/sable-2.0.7+26.3-port.jar` relative to the Physics Staff project root.
 
 - Linux / macOS: `./gradlew build --no-daemon`
 - Windows: `.\gradlew.bat build --no-daemon`
 
-Результат — `build/libs/physics_staff-26.3-1.0.0+26.3.jar`.
+Build output: `build/libs/physics_staff-26.3-1.0.0+26.3.jar`.
 
-## Лицензия
+## License
 
-[MIT](LICENSE.md). Авторы исходной реализации — The Simulated Team / The Creators of Aeronautics.
+[MIT](LICENSE.md). Original implementation by The Simulated Team / The Creators of Aeronautics.
