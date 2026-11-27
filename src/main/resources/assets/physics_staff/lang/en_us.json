@@ -1,0 +1,11 @@
+{
+  "item.physics_staff.creative_physics_staff": "Creative Physics Staff",
+  "item.physics_staff.creative_physics_staff.tooltip.drag": "Right-Click: Grab & move sub-level",
+  "item.physics_staff.creative_physics_staff.tooltip.lock": "Left-Click: Lock / unlock sub-level in place",
+  "item.physics_staff.creative_physics_staff.tooltip.rotate": "Hold Tab + Mouse: Rotate held sub-level",
+  "item.physics_staff.creative_physics_staff.tooltip.scroll": "Scroll Wheel (+ Sprint): Adjust distance",
+  "key.category.physics_staff.general": "Physics Staff",
+  "key.physics_staff.rotate_mode": "Rotate Held Sub-Level",
+  "key.physics_staff.scroll_up": "Move Sub-Level Farther",
+  "key.physics_staff.scroll_down": "Pull Sub-Level Closer"
+}

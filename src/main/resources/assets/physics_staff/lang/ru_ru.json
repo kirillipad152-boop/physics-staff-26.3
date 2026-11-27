@@ -1,0 +1,11 @@
+{
+  "item.physics_staff.creative_physics_staff": "Творческий физический посох",
+  "item.physics_staff.creative_physics_staff.tooltip.drag": "ПКМ: Захватить и перемещать структуру",
+  "item.physics_staff.creative_physics_staff.tooltip.lock": "ЛКМ: Зафиксировать / отпустить структуру",
+  "item.physics_staff.creative_physics_staff.tooltip.rotate": "Tab + мышь: Вращать структуру",
+  "item.physics_staff.creative_physics_staff.tooltip.scroll": "Колёсико (+ бег): Изменить дистанцию",
+  "key.category.physics_staff.general": "Физический посох",
+  "key.physics_staff.rotate_mode": "Вращение удерживаемой структуры",
+  "key.physics_staff.scroll_up": "Отодвинуть структуру",
+  "key.physics_staff.scroll_down": "Приблизить структуру"
+}

@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "physics_staff:item/creative_physics_staff"
+  }
+}

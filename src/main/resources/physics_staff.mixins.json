@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "dev.sableport.physicsstaff.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "MouseHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

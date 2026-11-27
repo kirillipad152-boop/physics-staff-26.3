@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "physics_staff:item/creative_physics_staff"
+  }
+}
